@@ -1,0 +1,35 @@
+:root {
+  --main-bg-color: #444444;
+  --bg-gradient: linear-gradient(
+    90deg,
+    rgba(120, 120, 120, 1) 0%,
+    rgba(117, 117, 117, 1) 20.62%,
+    rgba(106, 106, 106, 1) 38.59%,
+    rgba(88, 88, 88, 1) 55.56%,
+    rgba(63, 63, 63, 1) 71.92%,
+    rgba(31, 31, 31, 1) 87.69%,
+    rgba(0, 0, 0, 1) 100%
+  );
+  --light-color: #dedede;
+  --orange: darkorange;
+  --blue: deepskyblue;
+  --purple: #c628b3;
+  --green: limegreen;
+  --red: #e6332a;
+}
+
+@font-face {
+  font-family: 'Phosphate';
+  src: local('Phosphate'), local('Phosphate'),
+    url('assets/fonts/Phosphate.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'Nunito-bold';
+  src: local('Nunito-bold'), local('Nunito-bold'),
+    url('assets/fonts/Nunito-Bold.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'Nunito-semibold';
+  src: local('Nunito-semibold'), local('Nunito-semibold'),
+    url('assets/fonts/Nunito-SemiBold.woff2') format('woff2');
+}

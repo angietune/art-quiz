@@ -1,0 +1,150 @@
+@media (min-width: 991px) and (max-width: 1199px) {
+  .container {
+    width: 992px;
+  }
+  .settings-window {
+    height: 48vh;
+  }
+  .result-container {
+    width: 75%;
+  }
+  .round-result-container {
+    width: 100%;
+  }
+  .result-card {
+    width: 10em;
+  }
+  .game {
+    width: 90%;
+  }
+  .paint-answers {
+    width: 65%;
+  }
+  .category-progress {
+    right: 0.3em;
+  }
+  .ribbon {
+    right: 155px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .container {
+    width: 768px;
+  }
+  .ribbon {
+    right: 87px;
+  }
+  .answer {
+    font-size: 20px;
+  }
+  .question {
+    margin: 20px;
+  }
+  .category-num {
+    width: 80px;
+    font-size: 50px;
+  }
+  .category-image {
+    max-width: 77%;
+  }
+  .category-progress {
+    right: 0.3em;
+  }
+  .result-container {
+    width: 85%;
+  }
+}
+
+@media (min-width: 360px) and (max-width: 767px) {
+  .container {
+    width: 360px;
+  }
+  .logo {
+    height: 148px;
+  }
+  .header,
+  .footer {
+    height: 3em;
+    padding: 5px;
+  }
+  .logo-small {
+    width: 114px;
+    font-size: 23px;
+  }
+  .settings-modal {
+    width: 360px;
+  }
+  .settings-window {
+    margin-top: 100px;
+  }
+  .sound,
+  .timer {
+    width: 95%;
+    height: 100%;
+  }
+  .sound-settings,
+  .timer-settings {
+    flex-direction: column;
+    align-items: center;
+  }
+  .category-card {
+    width: 100%;
+  }
+  .title,
+  .round-number {
+    font-size: 1.8em;
+  }
+  .game-image {
+    max-width: 95%;
+  }
+  .answers {
+    width: 100%;
+  }
+  .answer {
+    width: 100%;
+  }
+  .modal,
+  .modal-info,
+  .modal-timer {
+    width: 100%;
+    left: 0;
+    top: 20px;
+  }
+  .icon {
+    top: -40px;
+    left: 142px;
+    width: 80px;
+    height: 80px;
+  }
+  .next,
+  .ok-btn {
+    width: 80%;
+    font-size: 30px;
+  }
+  .btns-container {
+    flex-direction: column;
+    gap: 0;
+  }
+  .ribbon {
+    right: 237px;
+  }
+  .category-progress {
+    right: -1.5em;
+  }
+  .answers-container {
+    width: 100%;
+  }
+  .paint-answers {
+    width: 100%;
+  }
+  .painting-right {
+    max-width: 90%;
+  }
+  .result-card {
+    width: 100%;
+  }
+  .result {
+    gap: 0;
+  }
+}

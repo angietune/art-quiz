@@ -1,0 +1,28 @@
+@import 'styles/style';
+@import 'styles/switch';
+@import 'styles/variables';
+@import 'styles/media';
+
+body {
+  min-height: 100vh;
+  background: var(--main-bg-color);
+  font-family: Nunito-bold;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+h1,
+h2 {
+  font-family: Phosphate;
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+a,
+a:active {
+  text-decoration: none;
+  color: inherit;
+}
